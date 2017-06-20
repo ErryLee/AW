@@ -1,0 +1,36 @@
+{
+  "name": "angular-webpack",
+  "version": "1.0.0",
+  "description": "webpack2 &amp; angular2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis Lee",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "~4.0.0",
+    "@angular/compiler": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "@angular/forms": "~4.0.0",
+    "@angular/http": "~4.0.0",
+    "@angular/platform-browser": "~4.0.0",
+    "@angular/platform-browser-dynamic": "~4.0.0",
+    "@angular/router": "~4.0.0",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.1",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.66",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "path": "^0.12.7",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.1.0",
+    "typescript": "~2.0.10",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
