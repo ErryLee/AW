@@ -1,15 +1,21 @@
 {
-  "compileOnSave": true,
   "compilerOptions": {
+    "target": "es3",
     "module": "commonjs",
-    "target": "es5",
-    "outDir": "./dist/",
+    "moduleResolution": "node",
     "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "removeComments": true,
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
-    "experimentalDecorators": true,
-    "jsx": "react",
-    "lib": ["es2015","dom"]
-  }
+    "declaration": false,
+    "lib": [
+      "es2015",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
