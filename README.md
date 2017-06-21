@@ -1,11 +1,17 @@
 # AW
 webpack2 &amp; angular2
 
-#### 初始化项目
 
-首先创建工程目录，名字随意，我创建的为AW/，切换到该目录下执行
-- `npm init`，会自动生成npm项目的package.json文件，一直回车默认即可，后期可随时更改。
-- `git init`，初始化本地git仓库，
-- `git add .`，将所有文件添加到仓库中
+- `npm install`，安装依赖包
+- `npm run dev`，启动本地工程，在localhost:1699进行预览
+
+
+搭建中遇到的问题：
+
+- `The URL 'localhost:1699/sockjs-node' is invalid`，
+该问题是由于webpack配置文件中的publicPath前边没有加http://，导致url解析失败
+
+- `Uncaught reflect-metadata shim is required when using class decorators`，
+这个问题是由于main.ts文件中没有引入 reflect-metadata和zone.js
 
 
