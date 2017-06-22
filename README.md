@@ -1,4 +1,4 @@
-# AW
+# webpack2和angular2搭建的项目
 webpack2 &amp; angular2
 
 
